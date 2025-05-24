@@ -66,6 +66,14 @@
         <button class="button" id="stopAlarmButton" style="background-color: #555; display: none;">Stop Alarm</button>
         <div class="status" id="status"></div>
     </div>
+
+    <div class="container" style="margin-top: 20px;">
+        <h2>Custom Reminder</h2>
+        <input type="text" id="customReminderInput" placeholder="What should I remind you for?" style="width: 95%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+        <button class="button" id="setCustomReminderButton">Set Custom Reminder (e.g., in 5 minutes)</button>
+        <div class="status" id="customReminderStatus" style="margin-top: 15px;"></div>
+    </div>
+
     <audio id="alarmSound" src="alarm.mp3" preload="auto"></audio>
     <script src="script.js"></script>
 </body>
